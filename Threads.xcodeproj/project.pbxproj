@@ -15,6 +15,12 @@
 		F0792E692AA3E2B0003A1581 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E682AA3E2B0003A1581 /* RegistrationView.swift */; };
 		F0792E6C2AA3E3BB003A1581 /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E6B2AA3E3BB003A1581 /* ThreadsTextFieldModifier.swift */; };
 		F0792E6E2AA3E51D003A1581 /* AuthButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E6D2AA3E51D003A1581 /* AuthButtonModifier.swift */; };
+		F0792E712AA3E690003A1581 /* ThreadsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E702AA3E690003A1581 /* ThreadsTabView.swift */; };
+		F0792E752AA3E891003A1581 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E742AA3E891003A1581 /* FeedView.swift */; };
+		F0792E792AA3E8BE003A1581 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E782AA3E8BE003A1581 /* ExploreView.swift */; };
+		F0792E7D2AA3E8F0003A1581 /* ThreadCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E7C2AA3E8F0003A1581 /* ThreadCreationView.swift */; };
+		F0792E812AA3E92B003A1581 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E802AA3E92B003A1581 /* ActivityView.swift */; };
+		F0792E852AA3E95A003A1581 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E842AA3E95A003A1581 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +33,12 @@
 		F0792E682AA3E2B0003A1581 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		F0792E6B2AA3E3BB003A1581 /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
 		F0792E6D2AA3E51D003A1581 /* AuthButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButtonModifier.swift; sourceTree = "<group>"; };
+		F0792E702AA3E690003A1581 /* ThreadsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTabView.swift; sourceTree = "<group>"; };
+		F0792E742AA3E891003A1581 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		F0792E782AA3E8BE003A1581 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		F0792E7C2AA3E8F0003A1581 /* ThreadCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCreationView.swift; sourceTree = "<group>"; };
+		F0792E802AA3E92B003A1581 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		F0792E842AA3E95A003A1581 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +123,14 @@
 		F0792E602AA3D7D3003A1581 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F0792E822AA3E952003A1581 /* Profile */,
+				F0792E7E2AA3E91B003A1581 /* Activity */,
 				F0792E632AA3D812003A1581 /* Authentication */,
+				F0792E762AA3E8B2003A1581 /* Explore */,
+				F0792E722AA3E87E003A1581 /* Feed */,
 				F0792E622AA3D811003A1581 /* Root */,
+				F0792E6F2AA3E666003A1581 /* TabBar */,
+				F0792E7A2AA3E8E1003A1581 /* ThreadCreation */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -165,6 +183,94 @@
 				F0792E6D2AA3E51D003A1581 /* AuthButtonModifier.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		F0792E6F2AA3E666003A1581 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E702AA3E690003A1581 /* ThreadsTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F0792E722AA3E87E003A1581 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E732AA3E88B003A1581 /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		F0792E732AA3E88B003A1581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E742AA3E891003A1581 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0792E762AA3E8B2003A1581 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E772AA3E8B7003A1581 /* View */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		F0792E772AA3E8B7003A1581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E782AA3E8BE003A1581 /* ExploreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0792E7A2AA3E8E1003A1581 /* ThreadCreation */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E7B2AA3E8ED003A1581 /* View */,
+			);
+			path = ThreadCreation;
+			sourceTree = "<group>";
+		};
+		F0792E7B2AA3E8ED003A1581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E7C2AA3E8F0003A1581 /* ThreadCreationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0792E7E2AA3E91B003A1581 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E7F2AA3E924003A1581 /* View */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		F0792E7F2AA3E924003A1581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E802AA3E92B003A1581 /* ActivityView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0792E822AA3E952003A1581 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E832AA3E954003A1581 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F0792E832AA3E954003A1581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0792E842AA3E95A003A1581 /* ProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +343,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0792E812AA3E92B003A1581 /* ActivityView.swift in Sources */,
+				F0792E752AA3E891003A1581 /* FeedView.swift in Sources */,
+				F0792E792AA3E8BE003A1581 /* ExploreView.swift in Sources */,
 				F0792E672AA3D844003A1581 /* LoginView.swift in Sources */,
+				F0792E852AA3E95A003A1581 /* ProfileView.swift in Sources */,
+				F0792E712AA3E690003A1581 /* ThreadsTabView.swift in Sources */,
+				F0792E7D2AA3E8F0003A1581 /* ThreadCreationView.swift in Sources */,
 				F0792E512AA3D7C0003A1581 /* ContentView.swift in Sources */,
 				F0792E6E2AA3E51D003A1581 /* AuthButtonModifier.swift in Sources */,
 				F0792E6C2AA3E3BB003A1581 /* ThreadsTextFieldModifier.swift in Sources */,
