@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F05950182AA63341001920B6 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05950172AA63341001920B6 /* ThreadCell.swift */; };
 		F0792E4F2AA3D7C0003A1581 /* ThreadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E4E2AA3D7C0003A1581 /* ThreadsApp.swift */; };
 		F0792E512AA3D7C0003A1581 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E502AA3D7C0003A1581 /* ContentView.swift */; };
 		F0792E532AA3D7C1003A1581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0792E522AA3D7C1003A1581 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F05950172AA63341001920B6 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		F0792E4B2AA3D7C0003A1581 /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0792E4E2AA3D7C0003A1581 /* ThreadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsApp.swift; sourceTree = "<group>"; };
 		F0792E502AA3D7C0003A1581 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				F0792E742AA3E891003A1581 /* FeedView.swift */,
+				F05950172AA63341001920B6 /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				F0792E712AA3E690003A1581 /* ThreadsTabView.swift in Sources */,
 				F0792E7D2AA3E8F0003A1581 /* ThreadCreationView.swift in Sources */,
 				F0792E512AA3D7C0003A1581 /* ContentView.swift in Sources */,
+				F05950182AA63341001920B6 /* ThreadCell.swift in Sources */,
 				F0792E6E2AA3E51D003A1581 /* AuthButtonModifier.swift in Sources */,
 				F0792E6C2AA3E3BB003A1581 /* ThreadsTextFieldModifier.swift in Sources */,
 				F0792E4F2AA3D7C0003A1581 /* ThreadsApp.swift in Sources */,
