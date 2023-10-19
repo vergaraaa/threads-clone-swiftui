@@ -32,4 +32,9 @@ class AuthService {
             print("DEBUG: Failed to create user with errro \(error.localizedDescription)")
         }
     }
+    
+    func signOut() {
+        try? Auth.auth().signOut() // sings out on backend
+        self.userSession = nil // removes session locally and updates routing
+    }
 }
