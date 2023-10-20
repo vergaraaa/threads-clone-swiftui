@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F02F29102AE2437D001D78F1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F290F2AE2437D001D78F1 /* User.swift */; };
+		F02F29132AE2462F001D78F1 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F29122AE2462F001D78F1 /* UserService.swift */; };
+		F02F29162AE24702001D78F1 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F29152AE24702001D78F1 /* ProfileViewModel.swift */; };
 		F05950182AA63341001920B6 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05950172AA63341001920B6 /* ThreadCell.swift */; };
 		F0792E4F2AA3D7C0003A1581 /* ThreadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E4E2AA3D7C0003A1581 /* ThreadsApp.swift */; };
 		F0792E512AA3D7C0003A1581 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0792E502AA3D7C0003A1581 /* ContentView.swift */; };
@@ -61,6 +64,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F02F290F2AE2437D001D78F1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F02F29122AE2462F001D78F1 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		F02F29152AE24702001D78F1 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		F05950172AA63341001920B6 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		F0792E4B2AA3D7C0003A1581 /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0792E4E2AA3D7C0003A1581 /* ThreadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsApp.swift; sourceTree = "<group>"; };
@@ -126,6 +132,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F02F290E2AE24370001D78F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F02F290F2AE2437D001D78F1 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F02F29112AE24620001D78F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F02F29122AE2462F001D78F1 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F02F29142AE246F5001D78F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F02F29152AE24702001D78F1 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F0792E422AA3D7C0003A1581 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +177,8 @@
 			children = (
 				F0792E612AA3D7E2003A1581 /* App */,
 				F0792E602AA3D7D3003A1581 /* Core */,
+				F02F290E2AE24370001D78F1 /* Model */,
+				F02F29112AE24620001D78F1 /* Services */,
 				F0792E5C2AA3D7CF003A1581 /* Utils */,
 				F0792E522AA3D7C1003A1581 /* Assets.xcassets */,
 				F0FE8F562AE048A1007EEC49 /* GoogleService-Info.plist */,
@@ -311,6 +343,7 @@
 				F0B526202AA6B5260082E8D2 /* EditProfile */,
 				F08D3F402AA666EC00FBF085 /* Model */,
 				F0792E832AA3E954003A1581 /* View */,
+				F02F29142AE246F5001D78F1 /* ViewModel */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -498,10 +531,13 @@
 				F0792E752AA3E891003A1581 /* FeedView.swift in Sources */,
 				F082826E2AE0F64500573CD3 /* ContentViewModel.swift in Sources */,
 				F0792E792AA3E8BE003A1581 /* ExploreView.swift in Sources */,
+				F02F29162AE24702001D78F1 /* ProfileViewModel.swift in Sources */,
 				F08D3F422AA666F900FBF085 /* ProfileThreadFilter.swift in Sources */,
+				F02F29132AE2462F001D78F1 /* UserService.swift in Sources */,
 				F082826A2AE0F24900573CD3 /* AuthService.swift in Sources */,
 				F0792E672AA3D844003A1581 /* LoginView.swift in Sources */,
 				F0792E852AA3E95A003A1581 /* ProfileView.swift in Sources */,
+				F02F29102AE2437D001D78F1 /* User.swift in Sources */,
 				F0792E712AA3E690003A1581 /* ThreadsTabView.swift in Sources */,
 				F0792E7D2AA3E8F0003A1581 /* ThreadCreationView.swift in Sources */,
 				F08D3F3D2AA6628B00FBF085 /* CircularProfileImageView.swift in Sources */,
