@@ -26,4 +26,8 @@ class UserService {
         
         self.currentUser = user
     }
+    
+    func reset() {
+        self.currentUser = nil
+    }
 }
