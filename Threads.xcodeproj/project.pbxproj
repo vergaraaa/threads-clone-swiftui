@@ -39,6 +39,7 @@
 		F08D3F422AA666F900FBF085 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D3F412AA666F900FBF085 /* ProfileThreadFilter.swift */; };
 		F0B526232AA6B54F0082E8D2 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B526222AA6B54F0082E8D2 /* EditProfileView.swift */; };
 		F0E303862AE7946C009EE3B8 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E303852AE7946C009EE3B8 /* EditProfileViewModel.swift */; };
+		F0E303882AE797F8009EE3B8 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E303872AE797F8009EE3B8 /* ImageUploader.swift */; };
 		F0FE8F572AE048A1007EEC49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0FE8F562AE048A1007EEC49 /* GoogleService-Info.plist */; };
 		F0FE8F5A2AE04A41007EEC49 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F0FE8F592AE04A41007EEC49 /* FirebaseAnalytics */; };
 		F0FE8F5C2AE04A41007EEC49 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F0FE8F5B2AE04A41007EEC49 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -103,6 +104,7 @@
 		F08D3F412AA666F900FBF085 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 		F0B526222AA6B54F0082E8D2 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		F0E303852AE7946C009EE3B8 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		F0E303872AE797F8009EE3B8 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		F0FE8F562AE048A1007EEC49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				F02F29122AE2462F001D78F1 /* UserService.swift */,
+				F0E303872AE797F8009EE3B8 /* ImageUploader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -597,6 +600,7 @@
 				F0792E752AA3E891003A1581 /* FeedView.swift in Sources */,
 				F082826E2AE0F64500573CD3 /* ContentViewModel.swift in Sources */,
 				F0792E792AA3E8BE003A1581 /* ExploreView.swift in Sources */,
+				F0E303882AE797F8009EE3B8 /* ImageUploader.swift in Sources */,
 				F08D3F422AA666F900FBF085 /* ProfileThreadFilter.swift in Sources */,
 				F04610602AE59A1500CF63DF /* CurrentUserProfileView.swift in Sources */,
 				F02F29132AE2462F001D78F1 /* UserService.swift in Sources */,
