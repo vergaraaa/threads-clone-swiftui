@@ -15,7 +15,7 @@ struct EditProfileView: View {
     
     @Environment(\.dismiss) var dismiss
     
-    @EnvironmentObject var viewModel: CurrentUserProfileViewModel
+    @StateObject var viewModel = EditProfileViewModel()
     
     var body: some View {
         NavigationStack {
@@ -112,6 +112,5 @@ struct EditProfileView: View {
 struct EditProfileView_Previews: PreviewProvider {
     static var previews: some View {
         EditProfileView()
-            .environmentObject(CurrentUserProfileViewModel())
     }
 }
