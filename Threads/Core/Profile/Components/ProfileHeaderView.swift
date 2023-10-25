@@ -10,7 +10,7 @@ import SwiftUI
 struct ProfileHeaderView: View {
     var user: User?
     
-    init(user: User? = nil) {
+    init(user: User?) {
         self.user = user
     }
     
@@ -40,7 +40,7 @@ struct ProfileHeaderView: View {
             
             Spacer()
             
-            CircularProfileImageView()
+            CircularProfileImageView(user: user, size: .medium)
         }
     }
 }
